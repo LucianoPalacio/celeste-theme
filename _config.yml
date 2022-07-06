@@ -1,0 +1,22 @@
+title:               Celeste
+baseurl:             ""
+
+markdown:            kramdown
+highlighter:         rouge
+
+exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
+
+permalink:           pretty
+paginate:            5
+paginate_path:       /blog/:num
+
+blog:
+  truncated_preview: false
+
+author:
+  name:              #Your Name
+  url:               https://www.example.com/
+  email:             #Your email
+
+plugins:
+  - jekyll-paginate
